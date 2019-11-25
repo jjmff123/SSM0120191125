@@ -39,5 +39,9 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 	 <!-- 103号bug修复完成 -->
 	 <!-- 103号bug修复完成 -->
 	 <!-- 103号bug修复完成 -->
+<<<<<<< HEAD
 	 <!-- bug104修复成功 -->
+=======
+	 
+>>>>>>> refs/heads/dev
 </configuration>
