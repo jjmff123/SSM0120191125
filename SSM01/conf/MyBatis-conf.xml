@@ -23,5 +23,6 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 	 	<property name="DB2" value="db2"/>
 	 </databaseIdProvider>
 	 
-	 <!-- git hahah -->
+	 
+	 
 </configuration>
