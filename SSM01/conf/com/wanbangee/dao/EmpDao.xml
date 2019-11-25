@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wanbangee.dao.EmpDao">
+	
+	<resultMap type="com.wanbangee.entities.Emp" id="myEmp">
+		<association property="department" select="com.wanbangee.dao.DepartmentDao.getDepartmentById" column="department_id">
+		</association>
+	</resultMap>
+	
+	<!-- public List<Emp> getEmpByLastNameLike(String lastName,int start,int size); -->
+	<select id="getEmpByLastNameLike" resultMap="myEmp">
+		select id,last_name,email,gender,department_id from emp where 
+		last_name like #{param1} limit #{param2},#{param3}
+	</select>
+	
+	<!-- public int getCountByLastNameLike(String lastName); -->
+	<select id="getCountByLastNameLike" resultType="_int">
+		select count(*) from emp where last_name like #{lastName}
+	</select>
+</mapper>
