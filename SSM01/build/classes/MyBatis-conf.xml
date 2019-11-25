@@ -22,4 +22,22 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 	 	<property name="SQL Server" value="sqlServer"/>
 	 	<property name="DB2" value="db2"/>
 	 </databaseIdProvider>
+	 
+	 
+	 <!-- git hahah -->
+	 <!-- git hahah -->
+	 <!-- git hahah -->
+	 <!-- git hahah -->
+	 
+	 <!-- 这是master分支上的修改 -->
+	 <!-- git hahah -->
+	 <!-- git hahah -->
+	 <!-- git hahah -->
+	 <!-- git hahah -->
+	 <!-- zai jjm 分支 开发 -->
+	 <!-- 102 号bug修复完成 -->
+	 <!-- 103号bug修复完成 -->
+	 <!-- 103号bug修复完成 -->
+	 <!-- 103号bug修复完成 -->
+	 
 </configuration>
